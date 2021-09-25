@@ -16,6 +16,7 @@ import retrofit2.Response
 class SneakerFragment : Fragment() {
     private  var reponseList: List<ResponseDTO> = listOf<ResponseDTO>()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -56,6 +57,7 @@ class SneakerFragment : Fragment() {
         recycler.adapter=myAdapter
         recycler.layoutManager=gridLayoutManager
     }
+
 
 }
 
